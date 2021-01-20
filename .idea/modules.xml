@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/com.yj.springboots.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/com.yj.springboots.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/com.yj.springboots.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/com.yj.springboots.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entity/com.yj.springboots.entity.test.iml" filepath="$PROJECT_DIR$/.idea/modules/entity/com.yj.springboots.entity.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/com.yj.springboots.service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/com.yj.springboots.service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/com.yj.springboots.service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/service/com.yj.springboots.service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboots.iml" filepath="$PROJECT_DIR$/.idea/modules/springboots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/springboots.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/springboots.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/springboots.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/springboots.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/springboots.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/springboots.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entity/springboots.entity.iml" filepath="$PROJECT_DIR$/.idea/modules/entity/springboots.entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entity/springboots.entity.main.iml" filepath="$PROJECT_DIR$/.idea/modules/entity/springboots.entity.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entity/springboots.entity.test.iml" filepath="$PROJECT_DIR$/.idea/modules/entity/springboots.entity.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboots.main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboots.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/springboots.service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/springboots.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/springboots.service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/springboots.service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/springboots.service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/service/springboots.service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboots.test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboots.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'com.yj'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':api')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter', version: '2.2.3.RELEASE'
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-server', version: '2.2.4.RELEASE'
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.2.2.RELEASE'
+
+
+
+
+}

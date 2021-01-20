@@ -1,0 +1,46 @@
+// 所有模块都采用统一的版本号以及groupName
+allprojects {
+
+    //修改项目属性(可选)
+    group GROUP
+    version VERSION
+
+    //应用插件
+    apply plugin: 'java'
+  
+
+    // JVM 版本号要求
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    // java编译的时候缺省状态下会因为中文字符而失败
+    [compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+
+    // 全局设置依赖配置
+    configurations {
+        providedRuntime
+    }
+
+    // 定义仓库
+    repositories {
+        maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven{url 'https://mvnrepository.com/'}
+        mavenLocal()
+        mavenCentral()
+    }
+
+}
+// 子模块的统一配置
+subprojects {
+    group GROUP
+    version VERSION
+
+    buildscript {
+        repositories {
+            mavenLocal()
+        }
+        dependencies {
+            classpath("org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion")
+        }
+    }
+}

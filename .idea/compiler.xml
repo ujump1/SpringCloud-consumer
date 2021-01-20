@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.yj.springboots.api.main" target="1.8" />
+      <module name="com.yj.springboots.api.test" target="1.8" />
+      <module name="com.yj.springboots.entity.main" target="1.8" />
+      <module name="com.yj.springboots.entity.test" target="1.8" />
+      <module name="com.yj.springboots.service.main" target="1.8" />
+      <module name="com.yj.springboots.service.test" target="1.8" />
+      <module name="springboots.api.main" target="1.8" />
+      <module name="springboots.api.test" target="1.8" />
+      <module name="springboots.entity.main" target="1.8" />
+      <module name="springboots.entity.test" target="1.8" />
+      <module name="springboots.main" target="1.8" />
+      <module name="springboots.service.main" target="1.8" />
+      <module name="springboots.service.test" target="1.8" />
+      <module name="springboots.test" target="1.8" />
+      <module name="springcloud-producer1.api.main" target="1.8" />
+      <module name="springcloud-producer1.api.test" target="1.8" />
+      <module name="springcloud-producer1.entity.main" target="1.8" />
+      <module name="springcloud-producer1.entity.test" target="1.8" />
+      <module name="springcloud-producer1.main" target="1.8" />
+      <module name="springcloud-producer1.service.main" target="1.8" />
+      <module name="springcloud-producer1.service.test" target="1.8" />
+      <module name="springcloud-producer1.test" target="1.8" />
+      <module name="springcloud-server.api.main" target="1.8" />
+      <module name="springcloud-server.api.test" target="1.8" />
+      <module name="springcloud-server.entity.main" target="1.8" />
+      <module name="springcloud-server.entity.test" target="1.8" />
+      <module name="springcloud-server.main" target="1.8" />
+      <module name="springcloud-server.service.main" target="1.8" />
+      <module name="springcloud-server.service.test" target="1.8" />
+      <module name="springcloud-server.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
