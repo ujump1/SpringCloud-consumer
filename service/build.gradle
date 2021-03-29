@@ -23,6 +23,8 @@ dependencies {
     // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.2.2.RELEASE'
 
+    // 不引用这个包会报错，不知道是不是eureka版本的问题
+    implementation 'com.google.code.gson:gson:2.6'
 
 
 
