@@ -14,17 +14,17 @@ repositories {
 dependencies {
     compile project(':api')
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+//    compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
 
-    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter
-    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter', version: '2.2.3.RELEASE'
+//    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter
+//    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter', version: '2.2.3.RELEASE'
     // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server
-    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-server', version: '2.2.4.RELEASE'
-    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign
+    implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.2.4.RELEASE') {
+        exclude group: 'javax.servlet' // 排除tomcat和 javax.servlet:servlet-api:2.5冲突
+        exclude group: 'com.google.code.gson' // 排除gson
+    }
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.2.2.RELEASE'
 
-    // 不引用这个包会报错，不知道是不是eureka版本的问题
-    implementation 'com.google.code.gson:gson:2.6'
 
 
 
